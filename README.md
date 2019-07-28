@@ -31,3 +31,24 @@ selectKey -clear;
 selectKey -add -k -t $currentTime;
 keyframe -tds on;
 ```
+or you can use this script to add custom color to the timeslider tdskey ticks.
+
+```
+setKeyframe;
+
+float $TStime = `currentTime -q`;
+
+colorEditor;
+if (`colorEditor -query -result`) {
+   float $rgb[];
+   $rgb = `colorEditor -query -rgb`;
+   displayRGBColor "timeSliderTickDrawSpecial" $rgb[0] $rgb[1] $rgb[2];
+} else {
+   print ("Operation Stopped\n");
+}
+   
+selectKey -clear;
+selectKey -add -k -t $TStime;
+
+keyframe -tds on;
+```
