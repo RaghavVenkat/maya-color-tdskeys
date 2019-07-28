@@ -15,19 +15,19 @@ Use this scrpt to change Key tick color to Green
 ```
 // Green TDS Key
 setKeyframe;
-float $TStime = `currentTime -q`;
+float $currentTime = `currentTime -q`;
 displayRGBColor "timeSliderTickDrawSpecial" 0 255 0;   
 selectKey -clear;
-selectKey -add -k -t $TStime;
+selectKey -add -k -t $currentTime;
 keyframe -tds on;
 ```
 Use this scrpt to change Key tick color to Red
 ```
 // Red TDS Key
 setKeyframe;
-float $TStime = `currentTime -q`;
+float $currentTime = `currentTime -q`;
 displayRGBColor "timeSliderTickDrawSpecial" 255 0 0;   
 selectKey -clear;
-selectKey -add -k -t $TStime;
+selectKey -add -k -t $currentTime;
 keyframe -tds on;
 ```
