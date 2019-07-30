@@ -4,8 +4,8 @@ Simple MEL scripts to quickly color the timeslider key ticks in maya.
 
 You can use these MEL scripts in different ways:
  - Load all the mel scripts as a shlef button.
- - or Just Load the single customColorKey.mel fil t the shelf and use the color picker to assign color each time.
- - or you can use by assigning Hotkey for these MEL scripts.
+ - or Just Load the single customColorKey.mel file to the shelf which provides a color picker to assign color each time.
+ - or you can use by assigning seperate Hotkey for these MEL scripts.
  
 **Quick Demo: Add as a Shelf Button Demo**
 <br>
