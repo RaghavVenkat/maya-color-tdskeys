@@ -1,7 +1,8 @@
 # maya-color-tdskeys
 Simple MEL scripts to quickly color the timeslider key ticks in maya. 
+<br><br>
+**Add as a Shelf Button Demo**
 <br>
-**Add as a Shelf Button Demo:**
 <br>
 <img src="/resource/guide-1.gif">
 <br>
@@ -35,8 +36,11 @@ selectKey -clear;
 selectKey -add -k -t $currentTime;
 keyframe -tds on;
 ```
-or you can use this script to add custom color to the timeslider tdskey ticks.
-
+or you can use this script to add custom color to the timeslider tdskey ticks.<br>
+**Custom Key Color Picker**
+<br>
+<br>
+<img src="/resource/guide-1.gif">
 ```
 setKeyframe;
 
