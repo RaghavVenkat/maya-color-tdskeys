@@ -36,11 +36,11 @@ selectKey -clear;
 selectKey -add -k -t $currentTime;
 keyframe -tds on;
 ```
-or you can use this script to add custom color to the timeslider tdskey ticks.<br>
+or you can use this script to add custom color to the timeslider tdskey ticks.<br><br>
 **Custom Key Color Picker**
 <br>
 <br>
-<img src="/resource/guide-1.gif">
+<img src="/resource/guide-2.gif">
 ```
 setKeyframe;
 
