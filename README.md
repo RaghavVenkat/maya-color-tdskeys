@@ -11,7 +11,7 @@ You can use these MEL scripts in different ways:
 <br>
 <br>
 <img src="/resource/guide-1.gif">
-<br>
+<br><br>
 Use this scrpt to change Key tick color to Blue
 ```
 // Blue TDS Key
@@ -50,7 +50,7 @@ or you can use this script to add custom color to the timeslider tdskey ticks.<b
 ```
 setKeyframe;
 
-float $TStime = `currentTime -q`;
+float $currentTime = `currentTime -q`;
 
 colorEditor;
 if (`colorEditor -query -result`) {
@@ -62,7 +62,7 @@ if (`colorEditor -query -result`) {
 }
    
 selectKey -clear;
-selectKey -add -k -t $TStime;
+selectKey -add -k -t $currentTime;
 
 keyframe -tds on;
 ```
