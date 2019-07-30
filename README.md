@@ -1,6 +1,10 @@
 # maya-color-tdskeys
 Simple MEL scripts to quickly color the timeslider key ticks in maya. 
-
+<br>
+**Add as a Shelf Button Demo:**
+<br>
+<img src="/resource/guide-1.gif">
+<br>
 Use this scrpt to change Key tick color to Blue
 ```
 // Blue TDS Key
